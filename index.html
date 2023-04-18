@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div id="app">
+      <section class="hero">
+        <div class="left-section">
+          <h1>
+            Hi, I Aymeric MAILLOT
+          </h1>
+          <p>FullStack Developer</p>
+          <div class="button-container">
+            <button id="download-btn">Download Cv</button>
+            <button id="learn-more-btn">Learn more</button>
+          </div>
+
+          <div class="social-links">
+            <i class="fab fa-github"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-medium"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fas fa-envelope"></i>
+          </div>
+          
+        </div>
+        <div class="right-section">
+          <h2>About ME</h2>
+          <p>
+            Hi, I'm Aymeric MAILLOT, a fifth-year software engineering student at
+            Efrei Paris. I'm passionate about using technology to solve real-world
+            problems and currently interning at ICPF. My studies have given me
+            experience in development web & devops, as well as software design,
+            testing, and debugging. I'm excited to continue learning and exploring
+            opportunities in the field. Thanks for checking out my portfolio, feel
+            free to contact me for more information.
+          </p>
+          <h2>Skills</h2>
+          <ul>
+            <li><i class="fas fa-laptop-code"></i> Frontend</li>
+            <li><i class="fas fa-server"></i> Backend</li>
+            <li><i class="fas fa-tools"></i> DevOps</li>
+            <li><i class="fas fa-vial"></i>testing</li>
+            <li><i class="fas fa-database"></i>database</li>
+            <li><i class="fas fa-code-branch"></i>no code</li>
+          </ul>
+        </div>
+      </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-icons">
+          <i class="fab fa-html5" title="HTML5"><span>HTML5</span></i>
+          <i class="fab fa-css3" title="CSS3"><span>CSS3</span></i>
+          <i class="fab fa-js" title="JavaScript"><span>JavaScript</span></i>
+          <i class="fab fa-react" title="React"><span>React</span></i>
+          <i class="fab fa-angular" title="Angular"><span>Angular</span></i>
+          <i class="fab fa-vuejs" title="Vue.js"><span>Vue.js</span></i>
+          <i class="fab fa-node" title="Node.js"><span>Node.js (express)</span></i>
+          <i class="fab fa-python" title="Python"><span>Python</span></i>
+          <i class="fab fa-java" title="Java"><span>Java</span></i>
+          <i class="fab fa-docker" title="Docker"><span>Docker</span></i>
+          <i class="fab fa-google" title="Google"><span>GCP</span></i>
+          <i class="fas fa-database" title="Database"><span>Mongo DB, PostgreSQL</span></i>
+          <i class="fab fa-git" title="Git"><span>Git</span></i>
+          <i class="fab fa-github" title="GitHub"><span>GitHub</span></i>
+          <i class="fas fa-code-branch" title="Version Control"><span>Version Control</span></i>
+          <i class="fas fa-terminal" title="Terminal"><span>Terminal</span></i>
+          <i class="fab fa-bitbucket" title="Bitbucket"><span>Bitbucket</span></i>
+          <i class="fab fa-jira" title="Jira"><span>Jira</span></i>
+          <i class="fab fa-gitlab" title="GitLab"><span>GitLab</span></i>
+          <i class="fab fa-confluence" title="Confluence"><span>Confluence</span></i>
+        </div>
+      </section>
+      
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-list" id="projectList">
+        <!-- Project cards will be dynamically generated here -->
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact me</h2>
+      <form action="#" method="POST">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+        </div>
+        <button type="submit">Send message</button>
+      </form>
+    </section>
+    
+
+    <button id="scroll-to-top-btn"><i class="fas fa-chevron-up"></i></button>
+
+    <footer>
+      <p>&copy; 2022 Aymeric MAILLOT. All rights reserved.</p>
+    </footer>
+    
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
